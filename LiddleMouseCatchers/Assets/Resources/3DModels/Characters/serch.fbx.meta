@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 26b1ea5e434f38d40af1b00041a00808
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FaceTexture
+    second: {fileID: 2100000, guid: b3ea7166a8299d54589947f8115c9ed1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SerchFaceTexture
+    second: {fileID: 2100000, guid: 4b9d4749eee083948956b21fe874b28f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_low
+    second: {fileID: 2100000, guid: e06d8c0b0780cee489ecbf2c01b39323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headband_low
+    second: {fileID: 2100000, guid: cc7d7a49ad1a8f646be839fbb2917758, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knot_low
+    second: {fileID: 2100000, guid: 3e76e7be4bf7af04e9d6ee034d2d4af6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pants_low
+    second: {fileID: 2100000, guid: f990bb24a1bb9f84fb50a7937d8f52da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: serchbody_low
+    second: {fileID: 2100000, guid: b5718fe11367c4642bc30065b0317692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: serchnose_low
+    second: {fileID: 2100000, guid: c220320afc07ad548ae7fabd74e242c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shirt_low
+    second: {fileID: 2100000, guid: b9e6bcb7ea8080e48b9760d93b32a133, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gloves_low_Base_Color
+    second: {fileID: 2800000, guid: c37761a474a0e3d41b7003023b69581e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gloves_low_Mixed_AO
+    second: {fileID: 2800000, guid: 3e827f1946bc63148a129b45bf70e898, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gloves_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 5ee7f6f72a01e404eb46d5098034313b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headband_low_Base_Color
+    second: {fileID: 2800000, guid: 498713305103cf44bbaf92cb1c785fce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headband_low_Mixed_AO
+    second: {fileID: 2800000, guid: f7ec6ed6ad70229498012504473b5e62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: headband_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 0a4e3056106e60145a789d8709b1a6d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: knot_low_Base_Color
+    second: {fileID: 2800000, guid: f4af5505d0afa614dbe38ab32836a5fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: knot_low_Mixed_AO
+    second: {fileID: 2800000, guid: 5fe27a83e42733b42b3ffd53c98c6628, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: knot_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 637ea591fb74a1c4581974549ac6ee68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pants_low_Base_Color
+    second: {fileID: 2800000, guid: 8dd55dbdba980c34fbb86c8cb7863456, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pants_low_Mixed_AO
+    second: {fileID: 2800000, guid: df23ed6ae62275548b9ce08249c010fa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pants_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 36f995d4eeeced547a2490e81d38dc4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rhea_face_textures
+    second: {fileID: 2800000, guid: e1f47505ca488dd4f9f0297c281cfae4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serch_face_textures
+    second: {fileID: 2800000, guid: a6bba5175243ac948a0cee5132034c06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serchbody_low_Base_Color
+    second: {fileID: 2800000, guid: 2f2831bb7ab13a74cb5a28252fc5fd1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serchbody_low_Mixed_AO
+    second: {fileID: 2800000, guid: 0098a2c818914944fb19a1fb0ce49b88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serchnose_low_Base_Color
+    second: {fileID: 2800000, guid: 6bf3b6c6b026b8b4489c6fc70950dff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serchnose_low_Mixed_AO
+    second: {fileID: 2800000, guid: 0160a3b5268d0d34db56b4ccd73cdfa8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: serchnose_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 37903297a64a48248a0b30b9298d09dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shirt_low_Base_Color
+    second: {fileID: 2800000, guid: 20effc02e8bedc64bad29c544af83c93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shirt_low_Mixed_AO
+    second: {fileID: 2800000, guid: 7137e0da382d1ed409db751e9dcad576, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: shirt_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: f9282fcb67eb42c43b64a0a295092c85, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: ad5935cf2b103fd46808935f6b9f729c
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FaceTexture
+    second: {fileID: 2100000, guid: 216e43fc4e5106843bdfff40a0a8dcf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: button_low
+    second: {fileID: 2100000, guid: c44ae09d800b0f449a38f59e656e77b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cushion_low
+    second: {fileID: 2100000, guid: 0c1c6affebecf3e42b57879fe866f0c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_low
+    second: {fileID: 2100000, guid: 8d8056f8443e98547ac78181b4983c8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gogglesrim_low
+    second: {fileID: 2100000, guid: 948d7dedd46255f4ca159455f8df9738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gogglestrap_low
+    second: {fileID: 2100000, guid: de3581219adc4a44188397f80c713b16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairtuft_low
+    second: {fileID: 2100000, guid: 8827713870e8525429a8dfc9b4de5e87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 3993c9fa48fbd734e9f270ca7685f2d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nosestrap_low
+    second: {fileID: 2100000, guid: 894f545761a186a49b6d640804799645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rheabody_low
+    second: {fileID: 2100000, guid: 68811cdf22d62694bb078f720dad1d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rheanose_low
+    second: {fileID: 2100000, guid: 43fe4ab3f64543f4ba20b23a8a64df41, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: button_low_Base_Color
+    second: {fileID: 2800000, guid: 95d264c0b8ad97b489f6a079f720b9c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: button_low_Mixed_AO
+    second: {fileID: 2800000, guid: a1120aba084316f4185a0b760a896492, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: button_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 7dfa5956d263b1745907506b1aedc325, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cushion_low_Base_Color
+    second: {fileID: 2800000, guid: 4bac3895f5ff2374290746708e9aa2c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cushion_low_Mixed_AO
+    second: {fileID: 2800000, guid: 81698b7e40bcd894eb8a08db2192bea1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cushion_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 3dd5e26ac455d024e9cb7fda65e2b7bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glass_low_Base_Color
+    second: {fileID: 2800000, guid: b182b7d992e40d9469f4cbef3b713b1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glass_low_Mixed_AO
+    second: {fileID: 2800000, guid: 01305d54df7c0e74e81fa07e4a16d68c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: glass_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: a6193229a87d63647981240b49746a38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglesrim_low_Base_Color
+    second: {fileID: 2800000, guid: 69945c16e76181a4eb8cff3e1b9bbb9b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglesrim_low_Mixed_AO
+    second: {fileID: 2800000, guid: 96c91c0bb07902147af70b95db1c3e27, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglesrim_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: f356aceec4653304991494828ed4e23b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglestrap_low_Base_Color
+    second: {fileID: 2800000, guid: ac88c154d94f5e4419bbf1c4c870eb38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglestrap_low_Mixed_AO
+    second: {fileID: 2800000, guid: 153d9d088080e564189605f5096e72b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gogglestrap_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 4f2602d5f9ac28d49b5c32a38244d7b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hairtuft_low_Base_Color
+    second: {fileID: 2800000, guid: cd3c425d6dfa1254f87d0b75d143c9db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hairtuft_low_Mixed_AO
+    second: {fileID: 2800000, guid: 1f4710ba6ff4f4649a1f0b808bee3db4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hairtuft_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 96859b6863284b5478227fa3993e4063, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nosestrap_low_Base_Color
+    second: {fileID: 2800000, guid: cd2d02d2a8cd08a4991d339b3a749b76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nosestrap_low_Mixed_AO
+    second: {fileID: 2800000, guid: ee806549ff575b045a1204e3110c8944, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nosestrap_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 545022a635572df429499005e39e37ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: overalls_low_Base_Color
+    second: {fileID: 2800000, guid: f2aa9d4020a964043a67b73a4dc03401, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: overalls_low_Mixed_AO
+    second: {fileID: 2800000, guid: ea12d4354abd8c949a9f846c6ee2a8a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: overalls_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 4f4e5b5b4a918724f96354af0c2ae09f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rhea_face_textures
+    second: {fileID: 2800000, guid: 5e13582b970938349b7ea02c3cd1ec1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheabody_low_Base_Color
+    second: {fileID: 2800000, guid: 05d6b01fa29be6d4aaacf70de9f5209b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheabody_low_Mixed_AO
+    second: {fileID: 2800000, guid: 0961b8de36775774385fb524cdca963a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheabody_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 7b37707cc3e60e74cb10edfd749a883f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheanose_low_Base_Color
+    second: {fileID: 2800000, guid: 6e265d31626d7e54a957fca3b18e4a56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheanose_low_Mixed_AO
+    second: {fileID: 2800000, guid: 3a5261812faa734468e8caa150c4d42a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rheanose_low_Normal_OpenGL
+    second: {fileID: 2800000, guid: 39b30b9bdd853834e85b3850cce54cfb, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
