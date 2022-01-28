@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473190461150271483}
   - component: {fileID: 8241984796818095280}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_feet_low2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7047419777219420190}
   - component: {fileID: 8476955880150403742}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_tail1_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4022979837995248474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3030132271948318925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_IK.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5505942065846092955}
   - component: {fileID: 4934337810840955387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_nose1_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -403,7 +403,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8512595781854705566}
   - component: {fileID: 6654347291494266607}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_bodyjoint_low2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2362473569134565538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_IK.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6586071360887567907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1893069523195617015}
   - component: {fileID: 7927629878100371833}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_tail3_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7919008382901870940}
   - component: {fileID: 6689600761586175110}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_nose3_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9017505030761277382}
   - component: {fileID: 2722109061728945062}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_bodyjoint_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 123816638408159364}
   - component: {fileID: 6851797451306735663}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_leg_low2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1018,7 +1018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5560194574291911506}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_IK.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1048,7 +1048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8438626637326040619}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1079,7 +1079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1364531915618315725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1110,7 +1110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8572542699621070383}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1141,7 +1141,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3338646675531448447}
   - component: {fileID: 1078461469762545276}
-  m_Layer: 0
+  - component: {fileID: 2129083454}
+  - component: {fileID: 2129083453}
+  m_Layer: 3
   m_Name: PokeAStick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,6 +1180,7 @@ Transform:
   - {fileID: 5117393451093216697}
   - {fileID: 1893069523195617015}
   - {fileID: 2332607205778783635}
+  - {fileID: 688780007}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1200,6 +1203,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2129083454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2674735598474304197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def1da1500375b2458429bf54090188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insectScriptableObject: {fileID: 11400000, guid: 31566aa13dadb1f45b8862e9b1bf0e28, type: 2}
+--- !u!135 &2129083453
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2674735598474304197}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.19735527
+  m_Center: {x: 0, y: 0.23657703, z: 0.0456295}
 --- !u!1 &3065967277937997700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,7 +1238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8595199367993288925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1239,7 +1268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4430532349188349577}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.L.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1332974205910464910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1301,7 +1330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 466850241622355782}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4661881403132155341}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BASE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1369,7 +1398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4755263394647133760}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,7 +1429,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1415796875143630821}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_IK.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1430,7 +1459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6895444328347066756}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1462,7 +1491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 328585888904126464}
   - component: {fileID: 8050358776232260633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_lowantennae_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512364141648788204}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1604,7 +1633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5117393451093216697}
   - component: {fileID: 6640861387393432393}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_tail2_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1714,7 +1743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8509429074219289145}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1745,7 +1774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9029494758351336218}
   - component: {fileID: 8988916535088918864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_feet_low1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1855,7 +1884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 371490571672690310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.R.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,7 +1914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8973949446483583863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.R.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1916,7 +1945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4759259725262677336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1948,7 +1977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6813994179165819344}
   - component: {fileID: 6394594520645002881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_bodyjoint_low1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2058,7 +2087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4386982841376316429}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.R.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2090,7 +2119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6896108409347759054}
   - component: {fileID: 8695543782839457252}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_feet_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2201,7 +2230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846890583925000851}
   - component: {fileID: 259466607748474417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_nose2_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2311,7 +2340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5911712751097531223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_IK.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,7 +2371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2332607205778783635}
   - component: {fileID: 5581835661745740784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stickbody_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5703739602462744937}
   - component: {fileID: 6606768284696661016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_eyes_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2563,7 +2592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4143032677528259028}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2594,7 +2623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422845428678212683}
   - component: {fileID: 5543882781452720056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_leg_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2704,7 +2733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3789899752586331524}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.L.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2734,7 +2763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5507517699300450822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.L.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2765,7 +2794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8488470360141889138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2803,7 +2832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8840789127025514269}
   - component: {fileID: 4213990917415321206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: stick_leg_low1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2913,7 +2942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1284358493978871630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_IK.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2934,3 +2963,93 @@ Transform:
   m_Father: {fileID: 8488470360141889138}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &688646245
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3338646675531448447}
+    m_Modifications:
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Name
+      value: PokeShadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 30.48001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30.48001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.019630909
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1321983
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0032949448
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FieldOfView
+      value: 17.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FarClipPlane
+      value: 484.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_IgnoreLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+--- !u!4 &688780007 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+  m_PrefabInstance: {fileID: 688646245}
+  m_PrefabAsset: {fileID: 0}

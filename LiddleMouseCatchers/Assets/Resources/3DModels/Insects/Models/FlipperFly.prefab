@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7206877331958114740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7606598042075433019}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 731144274816618900}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9185089423735282797}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MOUTH2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113477473855519267}
   - component: {fileID: 2388496622604706493}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flipper_wings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3140762088518245736}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MOUTH1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8152746973333759699}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,7 +319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5148274556757809876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BUBBLE2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1717416599836208930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5692236650474146759}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2912408476229921765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122323441213162729}
   - component: {fileID: 3130209923914976148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pPlane2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,7 +565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3279086124840451978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -596,7 +596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5233559234646419671}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5095575034487916184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6730493907374350108}
   - component: {fileID: 8324240621553234917}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flipper_nose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732466421110046754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203490366983585400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BUBBLE1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -841,7 +841,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2825374580421678912}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5012743845794210703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2313300234239181897}
   - component: {fileID: 2328278850341169948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Droplet_left_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1028,7 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3168413483778948242}
   - component: {fileID: 7062943938065953181}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flipperfly_head_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1151,7 +1151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5998429954029502840}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,7 +1184,8 @@ GameObject:
   - component: {fileID: 6403728908922904769}
   - component: {fileID: 2490473551598383947}
   - component: {fileID: 6633752882858944823}
-  m_Layer: 0
+  - component: {fileID: 3616396953695492838}
+  m_Layer: 3
   m_Name: FlipperFly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,6 +1217,7 @@ Transform:
   - {fileID: 1335727265663235788}
   - {fileID: 8961917009002487417}
   - {fileID: 1122323441213162729}
+  - {fileID: 6633752882847274624}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1251,6 +1253,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3616396953695492838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5398896874848184536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def1da1500375b2458429bf54090188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insectScriptableObject: {fileID: 11400000, guid: f75e3468bd5874f4a8ed4107995078f9, type: 2}
 --- !u!1 &5532149592372021519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +1275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4967270010874062449}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MOUTH3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1291,7 +1306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1642027294780496099}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 263278292343394089}
   - component: {fileID: 5833353411343205233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Droplet_right_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5491202517440482927}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WING.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1477,7 +1492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8961917009002487417}
   - component: {fileID: 3446518777708747256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flippertorso_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1600,7 +1615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1764826434829013864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ABDOMEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1639,7 +1654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1949780139705395834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1670,7 +1685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2409528694285668010}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1511840484613438735}
   - component: {fileID: 1420859004464204451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flipperLegs1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1824,7 +1839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8734545393300543831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MOUTH4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1854,7 +1869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6391104043378841153}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1886,7 +1901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8375270092807524027}
   - component: {fileID: 5245019367596578387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flipperLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5864873109012885605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WING.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2039,7 +2054,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2947470796957850565}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2070,7 +2085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9008886137195423697}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2101,7 +2116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6536551929751043407}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2131,7 +2146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1766797989446987365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2163,7 +2178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2656642447842240356}
   - component: {fileID: 257272488665359241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flipperfly_eyes_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2287,7 +2302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1335727265663235788}
   - component: {fileID: 9086542136159406783}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Flipperthorax_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2410,7 +2425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2141279967323278841}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2441,7 +2456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7001968277641234784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BUBBLE1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2472,7 +2487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7508745760395395802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2504,7 +2519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 229460329483067581}
   - component: {fileID: 1409587641109750205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flippermouth1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2627,7 +2642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3410512031534852353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2658,7 +2673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5404148631674819356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BUBBLE2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2688,7 +2703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6810357099246305414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2719,7 +2734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7902233644946031982}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2750,7 +2765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2275926331124542196}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2781,7 +2796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7919099209610843875}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2813,7 +2828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6218198119926458598}
   - component: {fileID: 7595492409976891007}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: flipperLegs2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2936,7 +2951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 898166270153943659}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HEAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2960,3 +2975,93 @@ Transform:
   m_Father: {fileID: 1764826434829013864}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6633752882847140866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6403728908922904769}
+    m_Modifications:
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Name
+      value: FlipperShadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.394159
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.394161
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.394161
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0043304814
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.331601
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.030292064
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FieldOfView
+      value: 14.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FarClipPlane
+      value: 484.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_IgnoreLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+--- !u!4 &6633752882847274624 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+  m_PrefabInstance: {fileID: 6633752882847140866}
+  m_PrefabAsset: {fileID: 0}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5263822177720578255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6164596142121110317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TAIL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6514187067427439148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SHELL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2043238028721348222}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5970021939503741447}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NECK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4255007489248288762}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065073188214665184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7481621928676222689}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5801894194402001418}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TAIL2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -286,7 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5066825834229564507}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5243924938329948205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6020862721783168755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8715455336178966333}
   - component: {fileID: 4252575219105090490}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fungshell_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,8 @@ GameObject:
   - component: {fileID: 6403728908922904769}
   - component: {fileID: 2490473551598383947}
   - component: {fileID: 4627095587356408416}
-  m_Layer: 0
+  - component: {fileID: 8394440651165299427}
+  m_Layer: 3
   m_Name: FungSnail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,6 +542,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8394440651165299427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5398896874848184536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def1da1500375b2458429bf54090188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insectScriptableObject: {fileID: 11400000, guid: 57d1ea3a3aac60d48b9c80167d81d45a, type: 2}
 --- !u!1 &5763306900084461740
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,7 +564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47456821600320954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7671751683252305163}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -611,7 +625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3698304314737744485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8373211480741482643}
   - component: {fileID: 9012552904446320996}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fungsnail_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -745,7 +759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7572826349387976754}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2112905136524876290}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HEAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041347988083192901}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BASE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1219144381540758178}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EYE3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609586312715199015}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7951281952183953878}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: EAR1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +949,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
       propertyPath: m_Name
-      value: RheaShadow
+      value: FungShadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
       propertyPath: m_RootOrder

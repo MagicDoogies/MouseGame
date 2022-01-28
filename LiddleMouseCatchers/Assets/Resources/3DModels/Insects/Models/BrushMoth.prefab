@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4669664420268314244}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 933840739402313604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3673648093358221541}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 553104855684457823}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5131277517097093532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3440754257771852091}
   - component: {fileID: 2924971122415472481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: pPlane1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -313,7 +313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5417696585366128059}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5099104615911086803}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -373,7 +373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8227570034843445884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9176212195220132816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2390528780751924894}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638979996233650802}
   - component: {fileID: 1622512588635685673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Leg1_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8583162678230878688}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8369240613730130516}
   - component: {fileID: 208153159597852778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brushears_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -799,7 +799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7201120448980471278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HEAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -831,7 +831,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 179901361358729574}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1337126025756437384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -892,7 +892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8074073850245664113}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6381017283281070185}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -953,7 +953,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158530001215234795}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7372899791947765953}
   - component: {fileID: 6040349303964686313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Leg2_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3372938438118503429}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1169,7 +1169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5184936922731502635}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TOPTUFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1199,7 +1199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3538235157216093955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1231,7 +1231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4720940717394612184}
   - component: {fileID: 319742524460497589}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brusheyes_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1382,7 +1382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2570924316716591594}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WING.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1412,7 +1412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9049138887229224684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1442,7 +1442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3371574840650511708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8741713977742475110}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1356963578262729304}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1533,7 +1533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475604994570987361}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,7 +1563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4794448307318367322}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BOTTOMTUFT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,7 +1593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4370705852977833725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1625,7 +1625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384082534997601209}
   - component: {fileID: 1731805881631757737}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Backfluff_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1776,7 +1776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3029161595266515978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1807,7 +1807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3832306868902910666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1839,7 +1839,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9171868896619603589}
   - component: {fileID: 569102175950927398}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brushbody_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1991,7 +1991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7961225349188364860}
   - component: {fileID: 1876109262802661098}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Midfluff_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2142,7 +2142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341113528520687700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG1_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2173,7 +2173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5151815063308975168}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2204,7 +2204,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5215902835755529177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2234,7 +2234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4538888002243336160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WING.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2264,7 +2264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816338894275168849}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2294,7 +2294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3974614515703853508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2325,7 +2325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1062781840714331640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2355,7 +2355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2545833433776023675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2385,7 +2385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 150669773451129056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2419,7 +2419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8639177152823620845}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ABDOMEN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2468,7 +2468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8401019970335231487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2499,7 +2499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4894881008445800669}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1552340609158389965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2559,7 +2559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2826079095586787154}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2591,7 +2591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7865336506783068607}
   - component: {fileID: 3498361700541167030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Brushhead_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2742,7 +2742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4762784097083709455}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2773,7 +2773,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 168308210984010353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2803,7 +2803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4005212032245078428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2838,7 +2838,8 @@ GameObject:
   - component: {fileID: 6403728908922904769}
   - component: {fileID: 3717363646270949262}
   - component: {fileID: 2490473551598383947}
-  m_Layer: 0
+  - component: {fileID: 167082400073339118}
+  m_Layer: 3
   m_Name: BrushMoth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2869,6 +2870,7 @@ Transform:
   - {fileID: 7961225349188364860}
   - {fileID: 6461970096274883364}
   - {fileID: 3440754257771852091}
+  - {fileID: 290890088}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2899,11 +2901,24 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5398896874848184536}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.02533198
+  m_Radius: 0.06
   m_Center: {x: 0, y: -0.009718276, z: -0.024949731}
+--- !u!114 &167082400073339118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5398896874848184536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def1da1500375b2458429bf54090188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insectScriptableObject: {fileID: 11400000, guid: b476edfc4adc25540ae6685d79dc43d2, type: 2}
 --- !u!1 &5437888134873649471
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,7 +2928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5184660803358182496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2944,7 +2959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8668326333997353127}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2975,7 +2990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3320861266325409996}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3TUFT_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3005,7 +3020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5236796475127165125}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3036,7 +3051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1866650111674584719}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3066,7 +3081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8616402671760680871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3098,7 +3113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 990943255244861209}
   - component: {fileID: 5971696713093778803}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fluff1_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3249,7 +3264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1629507528166371703}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3280,7 +3295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8408935210729136324}
   - component: {fileID: 312964063869533866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Leg1_low1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3431,7 +3446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2967441064048943389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3462,7 +3477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7330983109490013713}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG2_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3493,7 +3508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1937208908187134343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3527,7 +3542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4768313112902084103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3561,7 +3576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6461970096274883364}
   - component: {fileID: 1004008733029101816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Neckfuzz_low
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3712,7 +3727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 435011939058167742}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3743,7 +3758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 836140299207478833}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3774,7 +3789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2214937306517209430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LEG3_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3805,7 +3820,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5408440114312585502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +3850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3076144942548146941}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT4.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3865,7 +3880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 929933681272320259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3898,7 +3913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3259722119739067761}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOT2TUFT_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3928,7 +3943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 178025784717307755}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ANTENNA3.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3958,7 +3973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4158472779672140198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3988,7 +4003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7523874212397107094}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TUFT3.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4018,7 +4033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3341324806347691147}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FOOTTUFT4.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4039,3 +4054,93 @@ Transform:
   m_Father: {fileID: 1937208908187134343}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &290503658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6403728908922904769}
+    m_Modifications:
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Name
+      value: BrushMothShadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.286288
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.28629
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.28629
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.003062304
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37619343
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.033792153
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FieldOfView
+      value: 17.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_FarClipPlane
+      value: 484.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11900000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+      propertyPath: m_IgnoreLayers.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+--- !u!4 &290890088 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+  m_PrefabInstance: {fileID: 290503658}
+  m_PrefabAsset: {fileID: 0}
