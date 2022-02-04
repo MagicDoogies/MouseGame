@@ -9,8 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 600559189424208957}
+  - component: {fileID: 2457355479681794168}
+  - component: {fileID: 631528498335957473}
   m_Layer: 3
-  m_Name: aracbread_low
+  m_Name: AracBread
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,6 +52,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2457355479681794168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224702562375935623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def1da1500375b2458429bf54090188e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insectScriptableObject: {fileID: 11400000, guid: cad3cc63fa807da41ab240159ce9c8f1, type: 2}
+--- !u!135 &631528498335957473
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224702562375935623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.16922855
+  m_Center: {x: 0, y: 0.13023597, z: -0.06750202}
 --- !u!1 &240535181888039233
 GameObject:
   m_ObjectHideFlags: 0

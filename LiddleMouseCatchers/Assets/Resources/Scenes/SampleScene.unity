@@ -7159,6 +7159,33 @@ Transform:
   m_Father: {fileID: 509209396}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &324584133
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/FogPlus
+  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &344265791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8369,7 +8396,7 @@ Transform:
   m_LocalScale: {x: 35.57261, y: 69.27379, z: 14.192578}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &366161151
 PrefabInstance:
@@ -11435,7 +11462,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2724823569562154881, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
 --- !u!4 &481155142 stripped
 Transform:
@@ -11537,7 +11565,7 @@ Transform:
   m_LocalScale: {x: 3.5346, y: 1, z: 4.3014}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &491293387
 PrefabInstance:
@@ -12939,7 +12967,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7778846, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -16033,7 +16061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 763598521}
+  selectedFlowchart: {fileID: 1398370405}
 --- !u!4 &652024924
 Transform:
   m_ObjectHideFlags: 1
@@ -16046,7 +16074,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &660143523 stripped
 Transform:
@@ -17183,7 +17211,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -17276,7 +17304,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 65.633, y: -159.42, z: -106.732}
 --- !u!1001 &706351661
 PrefabInstance:
@@ -18747,6 +18775,11 @@ GameObject:
   - component: {fileID: 763598580}
   - component: {fileID: 763598588}
   - component: {fileID: 763598587}
+  - component: {fileID: 763598590}
+  - component: {fileID: 763598589}
+  - component: {fileID: 763598593}
+  - component: {fileID: 763598592}
+  - component: {fileID: 763598591}
   m_Layer: 3
   m_Name: RheaDialogue
   m_TagString: Untagged
@@ -18767,21 +18800,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 168.75743, y: 74.25815}
+  scrollPos: {x: 104.992325, y: -38.281}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600002
+  zoom: 0.8500002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 763598583}
-  selectedCommands:
-  - {fileID: 763598581}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 763598527}
   - {fileID: 763598533}
@@ -18830,9 +18861,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 1
-  storyText: This assignment is pretty chill 'tbh'. You walk around.{w} See a bug.
-    {w} Catch a bug. {w} Return Bug back here,{w}  so I can record it and we can
-    go home. Eeeeeeasy stuff.
+  storyText: 'C''mon Serch, how did you forget what to do already? Catch any bugs
+    you come across,{w} bring them back here,{w} so I can keep a record of them.
+    {w} Easy. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -18872,9 +18903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 494.1051
-    y: 94.14347
-    width: 127.894714
+    x: 158.57886
+    y: 23.090874
+    width: 128.11763
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18936,8 +18967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 1
-  storyText: It's real nice out yeah? {w}Go on and catch a bug so we can soak up
-    the sun off the clock.
+  storyText: 'Huh? What am I doing in the meantime? Getting paid to do nothing of
+    course. I love this job. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -19595,8 +19626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 1
-  storyText: Ooooh, starting off the day bold with a {$BugName} catch! I'll put this
-    angry lad in a jar and record our findings for today.
+  storyText: 'Wow, that is an exceptionally angry{$BugName}. The locals should be
+    thanking US for removing this threat to public safety. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -19623,9 +19654,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 258.5632
-    y: 252.25394
-    width: 112.10524
+    x: 105.154144
+    y: 193.16296
+    width: 113.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19910,9 +19941,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 620.24866
-    y: 254.75482
-    width: 112.63156
+    x: 221.42532
+    y: 238.32428
+    width: 114.47057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20182,9 +20213,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 490
-    y: 253.06186
-    width: 115.26314
+    x: 333.18204
+    y: 193.97095
+    width: 116.35293
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20195,6 +20226,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 763598569}
   - {fileID: 763598554}
+  - {fileID: 763598589}
   - {fileID: 763598567}
   suppressAllAutoSelections: 0
 --- !u!114 &763598542
@@ -20225,9 +20257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 374.62158
-    y: 250.59189
-    width: 110.5263
+    x: 221.21259
+    y: 193.77368
+    width: 111.64705
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20268,8 +20300,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 1
-  storyText: The {$BugName} has too pretty a shell to be called that. Couldn't Scientists
-    come up with a better name?
+  storyText: '{$BugName} should be offended that the pretty rocks they create is
+    called Kibble. I will make a petition to change it''s name. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -20296,9 +20328,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 472.58536
-    y: 362.00003
-    width: 120.52629
+    x: 334.93826
+    y: 332.58807
+    width: 121.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20825,8 +20857,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 1
-  storyText: Check it out, this {$BugName} is strutting around with a pretty rare
-    fungi on it's back. I'll be sure to pluck that after I document it.
+  storyText: Serch, remember the time as kids we used {$BugName} slime as deoderant
+    because we thought it smelled like bananas?
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -20867,8 +20899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 1
-  storyText: 'Every seen a swarm of {$BugName}s doing flips in a lake? Dizzying stuff.
-    Also very wet. '
+  storyText: 'I don''t care what you think Serch, I know for a fact people would
+    pay big money to watch '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -21138,8 +21170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 1
-  storyText: I have a controversial opinion about {$BugName}. They are UGLY and GARISH.
-    Pure propoganda that everyone likes them.
+  storyText: 'Everyone thinks {$BugName}''s are cute and fashionabe. Well I think
+    they are UGLY and GARISH!. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -21180,8 +21212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 1
-  storyText: Do you think management would be mad if I took this {$BugName} home
-    with me? I got some beats I want to try out.
+  storyText: Heeeeey, this {$BugName} got a nice tempo going. I need to record it
+    later so I can send Tulia some audio samples.
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -21451,8 +21483,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 1
-  storyText: 'Don''t get that {$BugName} too close to me. I''m allergic to them.
-    Turns my nose into a snuffly waterfall. '
+  storyText: 'Serch! Don''t get too close to me with that {$BugName}! You know they
+    make me sneeze for hours. *ACHOOO*{w} Aw, nuts. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -21493,9 +21525,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 356.0823
-    y: 364.3504
-    width: 113.68419
+    x: 333.7292
+    y: 285.52652
+    width: 114.94116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21765,9 +21797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 256.0736
-    y: 368.99203
-    width: 95.263145
+    x: 225.48541
+    y: 284.286
+    width: 96.11764
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21808,9 +21840,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 493.70676
-    y: 306.93335
-    width: 103.15788
+    x: 570.17725
+    y: 193.99225
+    width: 104.11763
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21821,6 +21853,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 763598553}
   - {fileID: 763598550}
+  - {fileID: 763598592}
   - {fileID: 763598551}
   suppressAllAutoSelections: 0
 --- !u!114 &763598565
@@ -22080,9 +22113,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 378.75485
-    y: 309.34146
-    width: 104.736824
+    x: 336.40186
+    y: 238.75322
+    width: 105.05881
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22093,6 +22126,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 763598557}
   - {fileID: 763598552}
+  - {fileID: 763598591}
   - {fileID: 763598555}
   suppressAllAutoSelections: 0
 --- !u!114 &763598567
@@ -22123,8 +22157,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 1
-  storyText: hehehe, I've got a pretty good prank in mind with these {$BugName}s
-    to scare the whiskers off my family when Autumns Harvest comes around.
+  storyText: Oh, sweet! You got us some lunch. I could use a-{w} HEY! EW, EW EW!
+    Serch, you goon!
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -22394,9 +22428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 248.30367
-    y: 314
-    width: 108.421036
+    x: 451.83304
+    y: 194.00005
+    width: 109.764694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22408,6 +22442,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 763598561}
   - {fileID: 763598568}
+  - {fileID: 763598593}
   - {fileID: 763598559}
   suppressAllAutoSelections: 0
 --- !u!114 &763598571
@@ -22438,8 +22473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 1
-  storyText: '{$BugName}s make for the best prank critters against plant lovers.
-    Imagine watering a BUG instead of a real flower! Ha!'
+  storyText: Scary fact- Nobody has ever seen what a {$BugName} looks like grown
+    up. Do they stay babies forever?
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -22709,8 +22744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 1
-  storyText: They say that the {$BugName} covers itself in wet soil found in the
-    area, but I don't believe that! It's far too sticky!
+  storyText: 'Research says that the substance covering the {$BugName}s body is soil.
+    It''s too...stick to be mud though? Eck. '
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -22737,15 +22772,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 375.1637
-    y: 93.83481
-    width: 115.26314
+    x: 389.93634
+    y: 23.380295
+    width: 115.88234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 60
   blockName: Game Done
-  description: 'If you have caught all the bugs, this block activates. '
+  description: 'This block activates once you''ve caught all the bugs. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 763598579}
@@ -23082,8 +23117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 1
-  storyText: 'You don''t have any critters on you Serch. I''m sure you can find one
-    if you look around some more. '
+  storyText: You can't find any bugs?! Nonsense, I can hear their scuttling 50 miles
+    away. C'mon Serch, the faster you do this, the faster
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -23353,19 +23388,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 379.10715
-    y: 164.03528
-    width: 93.6842
+    x: 288.1981
+    y: 24.262543
+    width: 94.23528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 64
   blockName: Nothing
-  description: Gets executed within the 'Bug Caught' script.
+  description: 'Executes if the player doesn''t have anything on them and they already
+    talked to Rhea two times. '
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 763598586}
   - {fileID: 763598581}
+  - {fileID: 763598590}
   - {fileID: 763598580}
   suppressAllAutoSelections: 0
 --- !u!114 &763598584
@@ -23821,6 +23858,143 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Congrats {$BugName}, I will personally remember your accomplishment
     for two weeks. Give or take. '
+  description: 
+  character: {fileID: 898895817}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &763598589
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763598520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 1
+  storyText: Don't give me that look. {w} You have the wrong opinion and are on the
+    clock. Buh-bye!
+  description: 
+  character: {fileID: 898895817}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &763598590
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763598520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 99
+  indentLevel: 1
+  storyText: 'we can go home. '
+  description: 
+  character: {fileID: 898895817}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &763598591
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763598520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 1
+  storyText: 'an event with just  {$BugName}s doing water sport tricks for 4 hours. '
+  description: 
+  character: {fileID: 898895817}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &763598592
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763598520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 102
+  indentLevel: 1
+  storyText: 'Pa keeled over laughing about that for MONTHS. Funniest shit we''ve
+    ever done since. '
+  description: 
+  character: {fileID: 898895817}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &763598593
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763598520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 101
+  indentLevel: 1
+  storyText: I almost took a big bite out of this {$BugName}! GROSS!!
   description: 
   character: {fileID: 898895817}
   portrait: {fileID: 0}
@@ -25696,7 +25870,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7778846, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -25814,33 +25988,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2862918674748742324, guid: 1d800a07ed54f304a86da49ccabdedd4, type: 3}
   m_PrefabInstance: {fileID: 831153786}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &837519096
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/FogPlus
-  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &844064018
 GameObject:
   m_ObjectHideFlags: 3
@@ -26396,7 +26543,7 @@ Transform:
   - {fileID: 1221459398}
   - {fileID: 1207827275}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &862135237
 PrefabInstance:
@@ -26867,7 +27014,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7778846, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -26956,7 +27103,7 @@ Transform:
   - {fileID: 886806449}
   - {fileID: 829245719}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &881939752
 MonoBehaviour:
@@ -27041,7 +27188,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7778846, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -27226,7 +27373,7 @@ Transform:
   m_LocalScale: {x: 3.5346, y: 1, z: 4.3014}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898895815
 GameObject:
@@ -27955,7 +28102,7 @@ Transform:
   m_LocalScale: {x: 36.68265, y: 0.21604, z: 43.36037}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &928690179
 PrefabInstance:
@@ -29127,7 +29274,7 @@ MonoBehaviour:
   heightFogIntensity: 0.098
   useHeightFogOnSky: 1
   distanceHeightBlend: 0.19
-  material: {fileID: 837519096}
+  material: {fileID: 324584133}
 --- !u!1001 &967061849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33144,7 +33291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: d37d169e09b81a04e94e20d05287c467, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: d37d169e09b81a04e94e20d05287c467, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35427,7 +35574,7 @@ Transform:
   m_LocalScale: {x: 35.57261, y: 19.174168, z: 50.750015}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1286202708
 PrefabInstance:
@@ -36440,7 +36587,7 @@ Transform:
   m_Children:
   - {fileID: 509209396}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1381122386
 MonoBehaviour:
@@ -36837,7 +36984,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1398370422}
+  - {fileID: 1398370425}
   selectedCommands: []
   variables:
   - {fileID: 1398370406}
@@ -36907,9 +37054,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 160.41751
-    y: 156.20877
-    width: 73.2967
+    x: 178.00002
+    y: 165.00003
+    width: 113.2967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36976,8 +37123,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 290.8985
-    y: 164.84941
-    width: 74.17582
+    y: 404.40997
+    width: 114.17582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37029,9 +37176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 310.45917
-    y: 408.8056
-    width: 73.73626
+    x: 297.27228
+    y: 356.05814
+    width: 113.73626
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37083,9 +37230,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 304.745
-    y: 353.86038
-    width: 75.93407
+    x: 293.75592
+    y: 300.01407
+    width: 115.93407
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37137,9 +37284,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 316.61316
-    y: 279.13495
-    width: 60
+    x: 293.5361
+    y: 257.1568
+    width: 96.15384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37191,9 +37338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 405.40463
-    y: 162.65123
-    width: 81.208786
+    x: 291.1188
+    y: 164.84901
+    width: 121.208786
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37247,7 +37394,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 182.10786
     y: 408.80515
-    width: 64.50549
+    width: 104.50549
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37301,7 +37448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 182.63733
     y: 355.2089
-    width: 65.38461
+    width: 105.38461
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37355,7 +37502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 181.19781
     y: 303.98898
-    width: 71.0989
+    width: 111.0989
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37407,9 +37554,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 177
-    y: 234
-    width: 68.90109
+    x: 182.49454
+    y: 258.1759
+    width: 108.90109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40578,7 +40725,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2724823569562154881, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
 --- !u!4 &1645645640 stripped
 Transform:
@@ -41702,7 +41850,7 @@ Transform:
   m_LocalScale: {x: 35.57261, y: 9.978608, z: 39.43987}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1702010905
 PrefabInstance:
@@ -42175,7 +42323,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2724823569562154881, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
 --- !u!4 &1736174920 stripped
 Transform:
@@ -43014,7 +43163,7 @@ Transform:
   - {fileID: 1754688935}
   - {fileID: 1112276614}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1826147457
 PrefabInstance:
@@ -43607,7 +43756,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2724823569562154881, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
 --- !u!4 &1860017356 stripped
 Transform:
@@ -47980,7 +48130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3338646675531448447, guid: 9a8d2417bd585c4469cca4bc1e109854, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3338646675531448447, guid: 9a8d2417bd585c4469cca4bc1e109854, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48349,7 +48499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6404245904179752271, guid: d0bb97a4003803840ba7ca5503c0b3e3, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6404245904179752271, guid: d0bb97a4003803840ba7ca5503c0b3e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48459,7 +48609,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3697094128716529477, guid: 38312f0078cf7b14c9b22f3097c40191, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3697094128716529477, guid: 38312f0078cf7b14c9b22f3097c40191, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48524,7 +48674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 71917d6fb36459c44beff642a8798550, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 71917d6fb36459c44beff642a8798550, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48581,7 +48731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 4675cf99fd6806b40b698dfed9906921, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 4675cf99fd6806b40b698dfed9906921, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48625,6 +48775,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4675cf99fd6806b40b698dfed9906921, type: 3}
+--- !u!1001 &7463116560726899738
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224702562375935623, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_Name
+      value: AracBread
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.591471
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.758286
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.0507116
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 600559189424208957, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
 --- !u!1001 &8444846093312382369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48638,7 +48845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 22a61d56dc1952742b9c5e4aba211f0e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 22a61d56dc1952742b9c5e4aba211f0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48650,7 +48857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 22a61d56dc1952742b9c5e4aba211f0e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.962
+      value: -4.997
       objectReference: {fileID: 0}
     - target: {fileID: 6403728908922904769, guid: 22a61d56dc1952742b9c5e4aba211f0e, type: 3}
       propertyPath: m_LocalRotation.w
