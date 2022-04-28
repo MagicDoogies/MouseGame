@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 8394440651165299427}
   m_Layer: 3
   m_Name: FungSnail
-  m_TagString: Untagged
+  m_TagString: Bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

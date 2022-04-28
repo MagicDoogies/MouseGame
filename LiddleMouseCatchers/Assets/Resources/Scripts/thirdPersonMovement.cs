@@ -26,8 +26,8 @@ public class thirdPersonMovement : MonoBehaviour
 
     public void Start()
     {
-        /*transform.position = startingPoint.transform.position;*///At the start of the game, place the player at the location of the startingpoint Gameobject.
-        /*transform.Rotate(0f, 180f, 0f);*/ //rotate the player around so they are facing the npc. Subject to change later.
+        /*transform.position = startingPoint.transform.position; //At the start of the game, place the player at the location of the startingpoint Gameobject.
+        transform.Rotate(0f, 180f, 0f);*/ //rotate the player around so they are facing the npc. Subject to change later.
     }
     // Update is called once per frame
     void Update()
