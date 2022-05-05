@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f37de9d1d95cf64eb3e64ceea93e1c7, type: 3}
+  m_Name: BugExample
+  m_EditorClassIdentifier: 
+  funnyName: 'Haha '
+  critterDescription: 'This is a funny guy, that does funny things. '
+  critterModel: {fileID: 224702562375935623, guid: f157d86535e944c448ac7a3107e959a0, type: 3}
+  attackPower: 10000

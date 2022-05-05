@@ -93,7 +93,6 @@ GameObject:
   - component: {fileID: 1378984614506902519}
   - component: {fileID: 8321665294478062873}
   - component: {fileID: 6707450305848380155}
-  - component: {fileID: 2724823569562154881}
   m_Layer: 3
   m_Name: sprout
   m_TagString: Untagged
@@ -165,19 +164,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2724823569562154881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6085465977309314444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4be20ce8c3a9dcf4e8d0b77ea63c0c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 0}
 --- !u!1 &8833923533616863742
 GameObject:
   m_ObjectHideFlags: 0
