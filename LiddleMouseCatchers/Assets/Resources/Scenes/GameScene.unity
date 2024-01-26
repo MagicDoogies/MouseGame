@@ -15971,7 +15971,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &660143523 stripped
 Transform:
@@ -28624,7 +28624,7 @@ MonoBehaviour:
   heightFogIntensity: 0.098
   useHeightFogOnSky: 1
   distanceHeightBlend: 0.19
-  material: {fileID: 1752678801}
+  material: {fileID: 1139876223}
 --- !u!1001 &967061849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31711,6 +31711,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3164315412040339434, guid: 59f99a81edac71747a3be6e38beb06ba, type: 3}
   m_PrefabInstance: {fileID: 1135304649}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1139876223
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/FogPlus
+  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1144260761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35754,7 +35781,7 @@ Transform:
   m_Children:
   - {fileID: 509209396}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1381122386
 MonoBehaviour:
@@ -35772,7 +35799,7 @@ MonoBehaviour:
   groupName: Bushes
   showGlobalPaintingLayersInspector: 1
   layerMask: 0101000101010101010101010101010101010101010101010101010101010101
-  radius: 0.36
+  radius: 16.92
   color: {r: 1, g: 1, b: 1, a: 1}
   quantityRange: {x: 1, y: 5}
   useDensity: 0
@@ -35830,7 +35857,7 @@ MonoBehaviour:
   positionBrushRandomizer: 0
   rotationBrushRandomizer: 1
   scaleBrushRandomizer: 1
-  paintKey: 112
+  paintKey: 117
   deleteKey: 108
   combineKey: 107
   randomizeKey: 106
@@ -35850,7 +35877,7 @@ MonoBehaviour:
   helpOptimizationFoldout: 0
   meshesFoldout: 1
   templatesFoldout: 1
-  keyBindingsFoldout: 0
+  keyBindingsFoldout: 1
   brushFoldout: 1
   slopesFoldout: 1
   randomizersFoldout: 1
@@ -41499,33 +41526,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8202099503801697092, guid: 8dc65881c7f1482468ddf9e2a6981db3, type: 3}
   m_PrefabInstance: {fileID: 1736174919}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1752678801
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/FogPlus
-  m_Shader: {fileID: 4800000, guid: 39ef0b8c9be96494d9f8b2f2c54a28c5, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &1754688933
 GameObject:
   m_ObjectHideFlags: 0
